@@ -3,6 +3,7 @@
 
 # VS Code
 .vscode/
+.idea/
 
 # optional (good to include)
 *.log
