@@ -21,8 +21,7 @@ public class ThirdLargest {
                 thirdMax = arr[i];
             }
         }
-        System.out.println(thirdMax);
-
+        System.out.println((thirdMax == -1) ? max : thirdMax);
     }
     
 }

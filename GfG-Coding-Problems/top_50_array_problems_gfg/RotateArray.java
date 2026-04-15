@@ -7,9 +7,12 @@ public class RotateArray{
         int arr[] = {1, 2, 3, 4, 5, 6};
         int d = 2;
 
+        int n = arr.length;
+        if(n == 0) return;
+        d %= n;
         reverse(arr, 0, d-1);
-        reverse(arr, d, arr.length-1);
-        reverse(arr, 0, arr.length-1);
+        reverse(arr, d, n-1);
+        reverse(arr, 0, n-1);
 
         System.out.println(Arrays.toString(arr));
 
